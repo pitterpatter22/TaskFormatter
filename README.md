@@ -51,6 +51,9 @@ The `example_usage.sh` script defines three example tasks:
 4. The `run_all_tasks` function iterates over the tasks, splits each task into a description and a command, and calls the `run_task` function for each task.
 5. The `run_task` function executes the task with a spinner and captures its output, displaying the task's status when it completes.
 
+## Spinner
+The Spinner was adjusted from https://github.com/sindresorhus/cli-spinners
+
 ## Example Output
 
 ```plaintext
