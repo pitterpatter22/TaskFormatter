@@ -2,6 +2,8 @@
 
 This project demonstrates the use of a Python decorator to format the output of functions, showing a running spinner, and indicating success or failure with colored and formatted text. It includes two files: `formatter.py` and `example.py`.
 
+![](https://github.com/seanssmith/CLI-Formatter/blob/main/python_task_importer/pythonformatterexample.gif)
+
 ## Files
 
 1. **formatter.py**: This file contains the `format_output` decorator that provides the desired formatting for function output.
