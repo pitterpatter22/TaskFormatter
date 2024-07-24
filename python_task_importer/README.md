@@ -2,7 +2,11 @@
 
 This project demonstrates the use of a Python decorator to format the output of functions, showing a running spinner, and indicating success or failure with colored and formatted text. It includes two files: `formatter.py` and `example.py`.
 
+## Example Output
+
+
 ![](https://github.com/seanssmith/CLI-Formatter/blob/main/python_task_importer/pythonformatterexample.gif)
+
 
 ## Files
 
@@ -38,5 +42,3 @@ bash
 python example.py
 ```
 You should see the spinner, success, and failure messages formatted as described, with appropriate separation and formatting for each function's output.
-
-## Example Output
