@@ -7,6 +7,7 @@ There are slight differences between the `bash` and `python` versions with the p
 ## Python Formatter
 
 [Python Files](https://github.com/seanssmith/CLI-Formatter/tree/main/python_task_importer)
+![](https://github.com/seanssmith/CLI-Formatter/blob/main/python_task_importer/pythonformatterexample.gif)
 
 ### To Do:
 - [ ] Add in handling for echo lines in function
@@ -17,6 +18,8 @@ There are slight differences between the `bash` and `python` versions with the p
 ## Bash Formatter
 
 [Bash Files](https://github.com/seanssmith/CLI-Formatter/tree/main/bash_task_importer)
+![](https://github.com/seanssmith/CLI-Formatter/blob/main/bash_task_importer/bashformatterexample.gif)
+
 
 ### To Do:
 - [ ] Add in global error handling
