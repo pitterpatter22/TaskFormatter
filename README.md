@@ -10,6 +10,7 @@ There are slight differences between the `bash` and `python` versions with the p
 
 ### To Do:
 - [ ] Add in handling for echo lines in function
+- [ ] Figure out a way to have print statements show up live rather than in bunches
 
 
 
