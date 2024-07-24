@@ -1,8 +1,8 @@
 # CLI Formatter with Spinner
 
-This repository contains two scripts written in both `bash` and `python`, a `formatter` and an `example`, that work together to execute tasks with a spinner and formatted output. The `formatter` script provides functions for running tasks with a spinner, while the `example` script demonstrates how to use these functions by defining and executing a set of tasks.
+This repository contains two scripts written in both `bash` and `python`, a `formatter` and an `example`, that work together to execute tasks with a spinner and formatted output. The `formatter` script provides functions for running tasks with a spinner, while the `example` script demonstrates how to use these functions by defining and executing a set of tasks or functions.
 
-There are slight differences between the `bash` and `python` versions.
+There are slight differences between the `bash` and `python` versions with the python version being the further along.
 
 ## Python Formatter
 
