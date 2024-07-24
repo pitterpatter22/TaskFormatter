@@ -1,4 +1,4 @@
-# BASH Task Formatter with Spinner
+# CLI Formatter with Spinner
 
 This repository contains two scripts, `task_formatter.sh` and `example_usage.sh`, that work together to execute tasks with a spinner and formatted output. The `task_formatter.sh` script provides functions for running tasks with a spinner, while the `example_usage.sh` script demonstrates how to use these functions by defining and executing a set of tasks.
 
