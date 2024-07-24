@@ -1,11 +1,11 @@
-# Formatter and App1
+# Formatter and Example
 
-This project demonstrates the use of a Python decorator to format the output of functions, showing a running spinner, and indicating success or failure with colored and formatted text. It includes two files: `formatter.py` and `app1.py`.
+This project demonstrates the use of a Python decorator to format the output of functions, showing a running spinner, and indicating success or failure with colored and formatted text. It includes two files: `formatter.py` and `example.py`.
 
 ## Files
 
 1. **formatter.py**: This file contains the `format_output` decorator that provides the desired formatting for function output.
-2. **app1.py**: This file demonstrates how to use the `format_output` decorator by applying it to two example functions, one that succeeds and one that fails.
+2. **example.py**: This file demonstrates how to use the `format_output` decorator by applying it to two example functions, one that succeeds and one that fails.
 
 ## Features
 
@@ -29,8 +29,8 @@ The `example.py` file demonstrates the use of the `format_output` decorator. It 
 
 ## Running the Example
 
-1. Save formatter.py and app1.py in the same directory.
-2. Run app1.py using the command:
+1. Save formatter.py and example.py in the same directory.
+2. Run example.py using the command:
 ```
 bash
 python example.py
