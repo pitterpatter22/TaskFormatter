@@ -38,7 +38,6 @@ The `example.py` file demonstrates the use of the `format_output` decorator. It 
 1. Save formatter.py and example.py in the same directory.
 2. Run example.py using the command:
 ```
-bash
 python example.py
 ```
 You should see the spinner, success, and failure messages formatted as described, with appropriate separation and formatting for each function's output.
