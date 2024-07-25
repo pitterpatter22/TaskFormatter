@@ -2,6 +2,10 @@
 
 This project demonstrates the use of a Python decorator to format the output of functions, showing a running spinner, and indicating success or failure with colored and formatted text. It includes two files: `formatter.py` and `example.py`.
 
+## Install
+
+pip install TaskFormatter
+
 ## Example Output
 
 
