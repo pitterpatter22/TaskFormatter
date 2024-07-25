@@ -1,4 +1,4 @@
-from formatter import format_output
+from TaskFormatter import format_output
 from time import sleep
 
 @format_output
