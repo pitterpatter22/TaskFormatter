@@ -4,7 +4,7 @@ This project demonstrates the use of a Python decorator to format the output of 
 
 ## Install
 
-pip install TaskFormatter
+`pip install TaskFormatter`
 
 ## Example Output
 
