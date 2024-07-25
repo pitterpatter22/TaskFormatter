@@ -8,6 +8,8 @@ There are slight differences between the `bash` and `python` versions with the p
 
 [Python Files](https://github.com/seanssmith/CLI-Formatter/tree/main/python_task_importer)
 
+View the Package on [PyPi](https://pypi.org/project/TaskFormatter/)
+
 <details>
   <summary>Example gif</summary>
 
