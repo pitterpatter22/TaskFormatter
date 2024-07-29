@@ -23,7 +23,8 @@ print_header() {
   echo "  ____) | | | | | | | |_| | | \\__ \\  __/ |   \\ V /  __/ |   "
   echo " |_____/|_| |_| |_|_|\\__|_| |_|___/\\___|_|    \\_/ \\___|_|   "
   echo -e "${COLOR_RESET}\n"
-  echo -e "${COLOR_GREEN}${script_name}${COLOR_RESET}\n\n\n"
+  echo -e "${COLOR_GREEN}${script_name}${COLOR_RESET}\n"
+  echo -e "${COLOR_YELLOW}${script_link}${COLOR_RESET}\n\n\n"
 }
 
 # Function to display a spinner
