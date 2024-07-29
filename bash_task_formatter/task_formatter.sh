@@ -35,7 +35,6 @@ print_header() {
     center_text "| |_/ / (_| \__ \ | | | | || (_) | |  | | | | | | (_| | |_| ||  __/ |   "
     center_text "\____/ \__,_|___/_| |_| \_| \___/|_|  |_| |_| |_|\__,_|\__|\__\___|_|   "
     center_text "                                                                       "
-    center_text "                                                                       "
     echo -e "${COLOR_YELLOW}\n"
     center_text "${script_name}"
     echo -e "\n"
