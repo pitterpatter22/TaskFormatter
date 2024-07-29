@@ -11,21 +11,40 @@ COLOR_RED="\033[1;31m"
 CHECK_MARK="\033[1;32m✔\033[0m"
 CROSS_MARK="\033[1;31m✘\033[0m"
 
+
+# Function to center text
+center_text() {
+    local text="$1"
+    local colorless_text=$(echo -e "$text" | sed 's/\x1b\[[0-9;]*m//g')
+    local width=$(tput cols)
+    local text_length=${#colorless_text}
+    local padding=$(( (width - text_length) / 2 ))
+    printf "%${padding}s%s\n" "" "$text"
+}
+
 # Function to print header with script name
 print_header() {
-  local script_name=$1
-  clear
-  echo -e "${COLOR_GREEN}"
-  echo "   _____           _ _   _                                  "
-  echo "  / ____|         (_) | | |                                 "
-  echo " | (___  _ __ ___  _| |_| |__  ___  ___ _ ____   _____ _ __ "
-  echo "  \\___ \\| '_ \` _ \\| | __| '_ \\/ __|/ _ \\ '__\\ \\ / / _ \\ '__|"
-  echo "  ____) | | | | | | | |_| | | \\__ \\  __/ |   \\ V /  __/ |   "
-  echo " |_____/|_| |_| |_|_|\\__|_| |_|___/\\___|_|    \\_/ \\___|_|   "
-  echo -e "${COLOR_RESET}\n"
-  echo -e "${COLOR_GREEN}${script_name}${COLOR_RESET}\n"
-  echo -e "${COLOR_YELLOW}${script_link}${COLOR_RESET}\n\n\n"
+    local script_name=$1
+    local script_link=$2
+    clear
+    echo -e "${COLOR_GREEN}"
+    center_text " ______           _      ______                         _   _            "
+    center_text "| ___ \         | |     |  ___|                       | | | |           "
+    center_text "| |_/ / __ _ ___| |__   | |_ ___  _ __ _ __ ___   __ _| |_| |_ ___ _ __ "
+    center_text "| ___ \/ _\` / __| '_ \  |  _/ _ \| '__| '_ \` _ \ / _\` | __| __/ _ \ '__|"
+    center_text "| |_/ / (_| \__ \ | | | | || (_) | |  | | | | | | (_| | |_| ||  __/ |   "
+    center_text "\____/ \__,_|___/_| |_| \_| \___/|_|  |_| |_| |_|\__,_|\__|\__\___|_|   "
+    center_text "                                                                       "
+    center_text "                                                                       "
+    echo -e "${COLOR_YELLOW}\n"
+    center_text "${script_name}"
+    echo -e "\n"
+    center_text "${script_link}"
+    echo -e "${COLOR_RESET}\n"
+    echo -e "\n\n"
 }
+
+
 
 # Function to display a spinner
 spinner() {
@@ -110,8 +129,6 @@ format_output_with_input() {
         printf "\r${COLOR_BLUE}Function: %s${COLOR_RESET} - ${COLOR_RED}Status: Error ${CROSS_MARK}${COLOR_RESET}                              \n" "$display_name"
     fi
 
-    echo -e "${COLOR_BLUE}Output:${COLOR_RESET}"
-    cat "$temp_file"
     echo "" # Ensure a new line after the function output
     rm -f "$temp_file"
     return $exit_status
