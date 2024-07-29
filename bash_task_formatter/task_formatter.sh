@@ -14,7 +14,7 @@ CROSS_MARK="\033[1;31m✘\033[0m"
 # Function to print header with script name
 print_header() {
   local script_name=$1
-  echo -e "${COLOR_GREEN}\n\n\n\n\n\n\n\n\n"
+  echo -e "${COLOR_GREEN}\n\n\n\n\n\n\n\n\n\n"
   echo "   _____           _ _   _                                  "
   echo "  / ____|         (_) | | |                                 "
   echo " | (___  _ __ ___  _| |_| |__  ___  ___ _ ____   _____ _ __ "
