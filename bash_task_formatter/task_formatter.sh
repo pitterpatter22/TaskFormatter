@@ -14,6 +14,7 @@ CROSS_MARK="\033[1;31m✘\033[0m"
 # Function to print header with script name
 print_header() {
   local script_name=$1
+  clear
   echo -e "${COLOR_GREEN}\n\n\n\n\n\n\n\n\n\n"
   echo "   _____           _ _   _                                  "
   echo "  / ____|         (_) | | |                                 "
@@ -119,6 +120,9 @@ format_output_with_input() {
 final_message() {
     local script_name=$1
     local success=$2
+    if [ -z "$success" ]; then
+        success=1
+    fi
     if [ "$success" -eq 0 ]; then
         echo -e "\n${COLOR_GREEN}${script_name} completed successfully!${COLOR_RESET}\n"
     else
