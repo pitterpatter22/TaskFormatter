@@ -115,8 +115,20 @@ format_output_with_input() {
     return $exit_status
 }
 
+# Function to print final message
+final_message() {
+    local script_name=$1
+    local success=$2
+    if [ $success -eq 0 ]; then
+        echo -e "\n${COLOR_GREEN}${script_name} completed successfully!${COLOR_RESET}\n"
+    else
+        echo -e "\n${COLOR_RED}${script_name} encountered errors!${COLOR_RESET}\n"
+    fi
+}
+
 # Export the functions for use in other scripts
 export -f print_header
 export -f format_output
 export -f format_output_with_input
+export -f final_message
 export COLOR_RESET COLOR_BLUE COLOR_YELLOW COLOR_GREEN COLOR_RED CHECK_MARK CROSS_MARK
