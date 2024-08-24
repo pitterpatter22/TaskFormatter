@@ -9,7 +9,7 @@ setup(
     long_description_content_type='text/markdown',
     author="Sean Smith",
     author_email="sean@ssmith.app",
-    url="https://github.com/seanssmith/TaskFormatter",
+    url="https://github.com/pitterpatter22/TaskFormatter",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
