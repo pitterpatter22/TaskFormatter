@@ -34,7 +34,7 @@ ask_reconfigure() {
 }
 
 # Using the formatter to format the output of the example functions
-print_header "Example Formatter" "https://github.com/seanssmith/TaskFormatter/blob/main/bash_task_formatter/example_new.sh"
+print_header "Example Formatter" "https://github.com/pitterpatter22/TaskFormatter/blob/main/bash_task_formatter/example_new.sh"
 format_output example_function_1 "Example Function 1"
 format_output example_function_2 "Example Function 2"
 format_output example_function_3 "Example Function 3"
